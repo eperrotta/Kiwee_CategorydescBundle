@@ -1,0 +1,17 @@
+services:
+  kiwee_categorydesc.api.normalizer.category:
+    class: 'Kiwee\Bundle\CategorydescBundle\Api\Normalizer\CategoryNormalizer'
+    decorates: pim_api.normalizer.category
+    arguments:
+      - '@kiwee_categorydesc.api.normalizer.category.inner'
+      - '@kiwee_categorydesc.catalog.normalizer.category'
+
+  kiwee_categorydesc.catalog.normalizer.category:
+    class: 'Kiwee\Bundle\CategorydescBundle\Catalog\Normalizer\Standard\CategoryNormalizer'
+    arguments:
+      - '@kiwee_categorydesc.catalog.normalizer.translation'
+
+  kiwee_categorydesc.catalog.normalizer.translation:
+    class: 'Kiwee\Bundle\CategorydescBundle\Catalog\Normalizer\Standard\TranslationNormalizer'
+    arguments:
+      - '@pim_catalog.repository.cached_locale'

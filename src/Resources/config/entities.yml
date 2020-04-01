@@ -1,0 +1,3 @@
+parameters:
+  pim_catalog.entity.category.class: Kiwee\Bundle\CategorydescBundle\Entity\Category
+  pim_catalog.entity.category_translation.class: Kiwee\Bundle\CategorydescBundle\Entity\CategoryTranslation

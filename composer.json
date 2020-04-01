@@ -1,0 +1,19 @@
+{
+  "name": "kiwee/categorydesc-bundle",
+  "type": "symfony-bundle",
+  "description": "Adds additional attributes to the category.",
+  "authors": [
+    {
+      "name": "Enzo Perrotta",
+      "email": "enzo.perrotta@kiwee.eu"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kiwee\\Bundle\\CategorydescBundle\\": "src/"
+    }
+  }
+}

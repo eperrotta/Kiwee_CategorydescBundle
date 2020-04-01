@@ -1,0 +1,3 @@
+parameters:
+  pim_enrich.form.type.category.class: Kiwee\Bundle\CategorydescBundle\Form\Type\CategoryType
+  pim_enrich.view_element.category.tab.property.template: 'KiweeCategorydescBundle:CategoryTree:Tab/property.html.twig'
