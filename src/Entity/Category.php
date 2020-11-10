@@ -2,7 +2,7 @@
 
 namespace Kiwee\Bundle\CategorydescBundle\Entity;
 
-use Pim\Bundle\CatalogBundle\Entity\Category as BaseCategory;
+use Akeneo\Pim\Enrichment\Component\Category\Model\Category as BaseCategory;
 use Kiwee\Bundle\CategorydescBundle\Entity\CategoryTranslation;
 
 class Category extends BaseCategory

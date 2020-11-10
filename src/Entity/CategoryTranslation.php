@@ -2,7 +2,7 @@
 
 namespace Kiwee\Bundle\CategorydescBundle\Entity;
 
-use Pim\Bundle\CatalogBundle\Entity\CategoryTranslation as BaseCategoryTranslation;
+use Akeneo\Pim\Enrichment\Component\Category\Model\CategoryTranslation as BaseCategoryTranslation;
 
 class CategoryTranslation extends BaseCategoryTranslation
 {
